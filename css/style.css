@@ -1,0 +1,206 @@
+        body{
+             background-color: beige;
+         }
+         #computer_title{
+             display: block;
+             position: absolute;
+             top: 50px;
+             left: 230px;
+             font-size: 36px;
+             font-weight: 900;
+             color: chocolate;
+         }
+         #comp{
+             display: block;
+             position: absolute;
+             top: 100px;
+             left: 100px;
+             width: 400px;
+             height: 400px;
+             background-color: chocolate;
+             box-shadow: 0 0 20px darkslategray;
+             z-index: 20;
+         }
+         #hide_computer_field{
+             display: none;
+             position: absolute;
+             top: 100px;
+             left: 100px;
+             width: 400px;
+             height: 400px;
+             background-color: gray;
+             opacity: 0.7;
+             z-index: 500;
+         }
+         #gameOver_panel{
+             display: none;
+             position: absolute;
+             top: 100px;
+             left: 100px;
+             width: 400px;
+             height: 400px;
+             background-color: gray;
+             opacity: 0.7;
+             z-index: 500;
+         }
+         #ships{
+             display: block;
+             position: relative;
+             top: 92px;
+             margin: 0 auto;
+             width: 210px;
+             height: 400px;
+             background-color: lightblue;
+             opacity: 0.8;
+             border: 1px solid black;
+         }
+         .whole_ship{
+             display: block;
+             float: left;
+             position: relative;
+             width: 40px;
+             height: 160px;
+             margin: 6px 0 5px 10px;
+             border-bottom: none;
+             z-index: 50;
+         }
+         #player_title{
+             display: block;
+             position: absolute;
+             top: 50px;
+             right: 260px;
+             font-size: 36px;
+             font-weight: 900;
+             color: teal;
+         }
+         #user{
+             display: block;
+             position: absolute;
+             top: 100px;
+             right: 100px;
+             width: 400px;
+             height: 400px;
+             z-index: 20;
+             background-color: teal;
+             box-shadow: 0 0 20px darkslategray;
+         }
+         .cell{
+             position: relative;
+             float: left;
+             height: 38px;
+             width: 38px;
+             margin: 1px;
+             background-color: darkkhaki;
+             z-index: 20;
+         }
+         .user_cell{
+             position: relative;
+             float: left;
+             height: 38px;
+             width: 38px;
+             margin: 1px;
+             background-color: burlywood;
+         }
+         .disabled{
+             position: relative;
+             float: left;
+             height: 38px;
+             width: 38px;
+             margin: 1px;
+             background-color: darkkhaki;
+         }
+         .ship{
+             position: relative;
+             float: left;
+             height: 38px;
+             width: 38px;
+             margin: 1px;
+             background-color: darkkhaki;
+             z-index: 20;
+         }
+         .shooted{
+             position: relative;
+             float: left;
+             height: 38px;
+             width: 38px;
+             margin: 1px;
+             background-color: red;
+         }
+         .user_ship{
+             position: relative;
+             float: left;
+             height: 38px;
+             width: 38px;
+             margin: 1px;
+             background-color: darkblue;
+         }
+         .user_shooted{
+             position: relative;
+             float: left;
+             height: 38px;
+             width: 38px;
+             margin: 1px;
+             background-color: red;
+         }
+         .defeated{
+             position: relative;
+             float: left;
+             height: 38px;
+             width: 38px;
+             margin: 1px;
+             background-color: darkred;
+         }
+         .missed{
+             position: relative;
+             float: left;
+             height: 38px;
+             width: 38px;
+             margin: 1px;
+             background-color: forestgreen;
+         }
+         #start_game{
+             position: relative;
+             display: none;
+             top: 200px;
+             margin: 0 auto;
+             padding: 5px;
+             background-color: forestgreen;
+             color: white;
+         }
+         #start_game:hover{
+             background-color: yellowgreen;
+         }
+         #strat_game_animation{
+             position: absolute;
+             top: 50%;
+             left: 50%;
+             width: 120px;
+             height: 20px;
+             margin-left: -60px;
+             margin-top: -10px;
+             z-index: 100;
+             display: none;
+             opacity: 0;
+             color: crimson;
+             font-family: serif;
+             font-weight: 900;
+             font-size: 20px;
+         }
+         #reset_ships{
+             position: relative;
+             right: 33px;
+             top: 80px;
+             padding: 3px;
+         }
+         #reset_ships:hover{
+             background-color: lightslategray;
+         }
+         #new_game{
+             position: relative;
+             display: none;
+             top: 250px;
+             margin: 0 auto;
+             padding: 5px;
+             background-color: mediumpurple;
+             color: white;
+         }
